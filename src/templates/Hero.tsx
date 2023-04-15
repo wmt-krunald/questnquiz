@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 import { Background } from '../background/Background';
-import { Button } from '../button/Button';
+// import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
@@ -34,13 +34,7 @@ const Hero = () => (
           </>
         }
         description="Easiet way to take quiz and find question on your finger tips."
-        button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
-            <a>
-              <Button xl>Contact Us</Button>
-            </a>
-          </Link>
-        }
+        button={null}
       />
     </Section>
     </Background>
