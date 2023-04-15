@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import logo1 from "./logo.png";
+
 
 import Link from 'next/link';
 
